@@ -9,14 +9,14 @@
     <h1>Google Analytics Data</h1>
 
     <!-- Container to display the fetched data -->
-    <div id="analyticsData"></div>
+    <div id="427364450"></div>
 
     <script>
         // Fetch Google Analytics data using the Reporting API
         function fetchAnalyticsData() {
             // Make a request to the Google Analytics Reporting API
             // Replace 'YOUR_VIEW_ID' and 'YOUR_API_KEY' with your actual Google Analytics view ID and API key
-            fetch(`https://www.googleapis.com/analytics/v3/data/ga?ids=ga:YOUR_VIEW_ID&start-date=30daysAgo&end-date=today&metrics=ga:pageviews&dimensions=ga:pagePath&key=YOUR_API_KEY`)
+            fetch(`https://www.googleapis.com/analytics/v3/data/ga?ids=ga:YOUR_VIEW_ID&start-date=30daysAgo&end-date=today&metrics=ga:pageviews&dimensions=ga:pagePath&key=341959370439-61r6lnn1ig3qb18ao1ef85rgqqp3hcjm.apps.googleusercontent.com`)
                 .then(response => response.json())
                 .then(data => {
                     // Process and render the fetched data
